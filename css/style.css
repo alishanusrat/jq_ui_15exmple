@@ -1,0 +1,29 @@
+#draggable {
+ width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  }
+   #sortable { 
+      list-style-type: none; 
+      margin: 0; padding: 0; 
+      width: 50%; }
+  #sortable li { 
+   margin: 0 5px 5px 5px; 
+   padding: 40px;
+    padding-left: 1.5em;
+     font-size: 1.4em; 
+     height: 18px; }
+ 
+ .ui-menu { width: 150px; }
+ #lab{
+   display: inline-block;
+    width: 5em;
+ }
+  .toggler { width: 500px; height: 200px; position: relative; }
+    #button_t { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+    .graph {
+    float: left;
+    margin-left: 10px;
+  }

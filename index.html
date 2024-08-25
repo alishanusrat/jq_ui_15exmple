@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/icon.jpg">
+  <!--css links-->
+   <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>js</title>
+</head>
+<body>
+  <div class="container">
+    
+    <!--1-->
+<div id="draggable" class="ui-widget-content">
+  <p>Drag me around</p>
+</div>
+
+
+  <!--2-->
+  <ul id="sortable">
+  <li class="ui-state-default">Item 1</li>
+  <li class="ui-state-default">Item 2</li>
+  <li class="ui-state-default">Item 3</li>
+  <li class="ui-state-default">Item 4</li>
+</ul>
+
+<!--ex3-->
+<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
+
+<!--4-->
+<form action="#">
+  <div class="mt-3 mb-3">
+    <label for= "subject" class="form-label"> Enter your fav language</label>
+      <input type="text" name="" class="form-control" id="subject">
+  </div>
+  <div class="mb-3">
+           <button type="submit" name="" class="btn btn-dark">Submit</button>
+  </div>
+</form>
+ 
+
+
+ <!--5-->
+ <div class="widget">
+  <h1>Checkbox and radio button widgets</h1>
+ 
+  <h2>Radio Group</h2>
+  <fieldset>
+    <legend>Select a Location: </legend>
+    <label for="radio-1">New York</label>
+    <input type="radio" name="radio-1" id="radio-1" class="radio">
+    <label for="radio-2">Paris</label>
+    <input type="radio" name="radio-1" id="radio-2" class="radio">
+    <label for="radio-3">London</label>
+    <input type="radio" name="radio-1" id="radio-3" class="radio">
+  </fieldset>
+ 
+  <h2>Checkbox</h2>
+  <fieldset>
+    <legend>Hotel Ratings: </legend>
+    <label for="checkbox-1">2 Star</label>
+    <input type="checkbox" name="checkbox-1" id="checkbox-1" class="radio">
+    <label for="checkbox-2">3 Star</label>
+    <input type="checkbox" name="checkbox-2" id="checkbox-2" class="radio">
+    <label for="checkbox-3">4 Star</label>
+    <input type="checkbox" name="checkbox-3" id="checkbox-3" class="radio">
+    <label for="checkbox-4">5 Star</label>
+    <input type="checkbox" name="checkbox-4" id="checkbox-4" class="radio">
+  </fieldset>
+ 
+  <h2>Checkbox nested in label</h2>
+  <fieldset>
+    <legend>Bed Type: </legend>
+    <label for="checkbox-nested-1">2 Double
+      <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1" class="radio">
+    </label>
+    <label for="checkbox-nested-2">2 Queen
+      <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2" class="radio">
+    </label>
+    <label for="checkbox-nested-3">1 Queen
+      <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3" class="radio">
+    </label>
+    <label for="checkbox-nested-4">1 King
+      <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4" class="radio">
+    </label>
+  </fieldset>
+</div>
+
+<!--6-->
+ <p>Pick the Date: <input type="text" id="datepicker" ></p>
+
+
+ <!--7-->
+ <div>
+  <p id="dialog">This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+
+<!--8-->
+<ul id="menu">
+  <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+  <li><div>Books</div></li>
+  <li><div>Clothing</div></li>
+  <li><div>Electronics</div>
+    <ul>
+      <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+      <li><div>Car Hifi</div></li>
+      <li><div>Utilities</div></li>
+    </ul>
+  </li>
+  <li><div>Movies</div></li>
+  <li><div>Music</div>
+    <ul>
+      <li><div>Rock</div>
+        <ul>
+          <li><div>Alternative</div></li>
+          <li><div>Classic</div></li>
+        </ul>
+      </li>
+      <li><div>Jazz</div>
+        <ul>
+          <li><div>Freejazz</div></li>
+          <li><div>Big Band</div></li>
+          <li><div>Modern</div></li>
+        </ul>
+      </li>
+      <li><div>Pop</div></li>
+    </ul>
+  </li>
+  <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+</ul>
+ 
+ <!--9-->
+
+<div id="progressbar"></div>
+
+<!--10-->
+<div id="slider"></div>
+
+<!--11-->
+<p>
+  <label for="spinner">Select a value:</label>
+  <input id="spinner" name="value">
+</p>
+
+<!--12-->
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Nunc tincidunt</a></li>
+    <li><a href="#tabs-2">Proin dolor</a></li>
+    <li><a href="#tabs-3">Aenean lacinia</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+  </div>
+  <div id="tabs-2">
+    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+  </div>
+  <div id="tabs-3">
+    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+  </div>
+</div>
+
+<!--13-->
+<p><a href="#" title="That's what this widget is">Tooltips</a> can be attached to any element. When you hover
+the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.</p>
+<p>But as it's not a native tooltip, it can be styled. Any themes built with
+<a href="https://jqueryui.com/themeroller/" title="ThemeRoller: jQuery UI's theme builder application">ThemeRoller</a>
+will also style tooltips accordingly.</p>
+<p>Tooltips are also useful for form elements, to show some additional information in the context of each field.</p>
+<p><label for="age" id="lab">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+<p>Hover the field to see the tooltip.</p>
+
+
+
+<!--14-->
+<div class="toggler">
+  <div id="effect" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+    <p>
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+    </p>
+  </div>
+</div>
+ 
+<button id="button_t" class="ui-state-default ui-corner-all">Toggle Effect</button>
+
+<!--15-->
+<div id="graphs"></div>
+
+  </div>  
+
+<!--js links-->
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+ 
+</body>
+</html>
